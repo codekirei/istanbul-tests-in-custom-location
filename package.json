@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha 'test/dist/test/*.js' -R dot",
+    "cover": "istanbul cover _mocha -- 'test/dist/test/*.js' -R dot"
+  },
+  "dependencies": {
+    "istanbul": "0.4.3",
+    "mocha": "2.4.5"
+  }
+}
